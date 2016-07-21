@@ -95,14 +95,7 @@ title: Bohlen Art
             <div class="row">
               {% for artwork in site.data.artworks %}
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#{{ artwork.slug }}" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="{{ artwork.image | resize: '400x450#' }}" class="img-responsive" alt="" />
-                    </a>
+                  <img src="{{ artwork.image | resize: '400x450#' }}" class="img-responsive" alt="" />
                 </div>
               {% endfor %}
             </div>
@@ -246,54 +239,6 @@ ISBN-10: 3738604715 · ISBN-13: 978-3738604719 </small><br /><br />
             <i class="fa fa-chevron-up"></i>
         </a>
     </div>
-
-    <!-- Portfolio Modals -->
-    {% for artwork in site.data.artworks %}
-    
-    <div class="portfolio-modal modal fade" id="{{ artwork.slug }}" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>{{ artwork.title }}</h2>
-                            <img src="{{ artwork.image }}" class="img-responsive img-centered" alt="" />
-                            <p>
-                              {% if artwork.description %}
-                                {{ artwork.description }}
-                              {% else %}
-                                Digital Painting. Karikatur von Nick Bohlen
-                              {% endif %}
-                            </p>
-                            <ul class="list-inline item-details">
-                              {% if artwork.artwork_date %}
-                                <li>
-                                  <span class="li-label">Jahr:</span></li>
-                                  <strong>{{ artwork.artwork_date }}</strong>
-                                
-                              {% endif %}
-                              {% if artwork.size %}
-                                <li>
-                                  <span class="li-label">Größe:</span></li>
-                                  <strong>{{ artwork.size }}</strong>
-                                
-                              {% endif %}
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    {% endfor %}
-    
 
     <!-- jQuery -->
     <script src="/js/jquery.js"></script>
