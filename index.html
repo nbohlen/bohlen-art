@@ -58,7 +58,10 @@ title: Bohlen Art
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Artworks</a>
+                        <a href="#portfolio">Profil</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Bilder</a>
                     </li>
                     
                     <li class="page-scroll">
@@ -88,13 +91,14 @@ title: Bohlen Art
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Artworks</h2>
+                    <h2>Bilder</h2>
                     
                 </div>
             </div>
-            <div class="row">
+            <div class="artworks grid">
+              <div class="grid-sizer"></div>
               {% for artwork in site.data.artworks %}
-                <div class="col-sm-4 portfolio-item">
+                <div class="grid-item">
                   <img src="{{ artwork.image | resize: '400x450#' }}" class="img-responsive" alt="" />
                 </div>
               {% endfor %}
@@ -255,7 +259,8 @@ ISBN-10: 3738604715 · ISBN-13: 978-3738604719 </small><br /><br />
     <!-- Contact Form JavaScript -->
     <script src="/js/jqBootstrapValidation.js"></script>
     <!-- {{ 'contact_me.js' | javascript_tag }} -->
-
+    <script src="/js/masonry.pkgd.min.js"></script>
+    <script src="/js/imagesloaded.pkgd.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="/js/bohlen-art.js"></script>
   
