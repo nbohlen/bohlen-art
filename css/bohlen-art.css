@@ -128,15 +128,15 @@ hr.star-primary:after {
   padding: 15px;
 }
 
-.grid-item i {
+.grid-item .fa-stack {
   position: absolute;
   right: 25px;
   bottom: 25px;
-  color: white;
+  color: #d60037;
   font-size:20px;
-  opacity: 0.5;
   z-index: 2000;
 }
+
 
 .grid-item .buy-section {
   display: none;
