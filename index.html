@@ -98,8 +98,8 @@ title: Bohlen Art
                 <div class="grid-item">
                   <img src="{{ artwork.image | resize: '400x450#' }}" class="img-responsive" alt="" />
                   
-                  {% if artwork.buy == "true" %}
-                  
+                  {% if artwork.buy == "true" && artwork.buy_button != "" %}
+                    {{ artwork.buy_button }}
                   {% endif %}
                 </div>
               {% endfor %}
