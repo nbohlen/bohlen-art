@@ -99,7 +99,10 @@ title: Bohlen Art
                   <img src="{{ artwork.image | resize: '400x450#' }}" class="img-responsive" alt="" />
                   
                   {% if artwork.buy == "true" && artwork.buy_button != "" %}
-                    {{ artwork.buy_button }}
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <div class="buy-section">
+                      {{ artwork.buy_button }}
+                    </div>
                   {% endif %}
                 </div>
               {% endfor %}
