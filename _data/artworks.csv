@@ -1,4 +1,4 @@
-title,artwork_date,description,image,size,slug,buy
+title,artwork_date,description,image,size,slug,buy,buy_button
 Barack Obama,2014,,/images/artworks/barack-obama-nick-bohlen.jpg,,barack-obama,true
 Clint Eastwood,2012,,/images/artworks/clint-eastwood-nick-bohlen.jpg,,clint-eastwood,true
 Sarah Jessica Parker,2014,,/images/artworks/sarah-jessica-parker-nick-bohlen.jpg,,sarah-jessica-parker,false
