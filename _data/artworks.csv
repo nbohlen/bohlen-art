@@ -1,17 +1,17 @@
-title,artwork_date,description,image,size,slug
-Barack Obama,2014,,/images/artworks/barack-obama-nick-bohlen.jpg,,barack-obama
-Clint Eastwood,2012,,/images/artworks/clint-eastwood-nick-bohlen.jpg,,clint-eastwood
-Sarah Jessica Parker,2014,,/images/artworks/sarah-jessica-parker-nick-bohlen.jpg,,sarah-jessica-parker
-Alfred Hitchcock,2013,,/images/artworks/alfred-hitchcock-nick-bohlen.jpg,,alfred-hitchcock
-Bob Dylan,2013,,/images/artworks/bob-dylan-nick-bohlen.jpg,,bob-dylan
-Joaquin Phoenix,2012,,/images/artworks/joaquin-phoenix-nick-bohlen.jpg,,joaquin-phoenix
-Matthew McConaughey,2014,,/images/artworks/dallas-buyers-club-nick-bohlen.jpg,,matthew-mcconaughey
-Jean Paul Belmondo,2014,,/images/artworks/jean-paul-belmondo-nick-bohlen.jpg,,jean-paul-belmondo
-Forest Whitaker,2013,,/images/artworks/forest-whitaker-nick-bohlen.jpg,,forest-whitaker
-Halle Berry,2014,,/images/artworks/halle-berry-nick-bohlen.jpg,,halle-berry
-Jeff Bridges,2013,,/images/artworks/jeff-bridges-nick-bohlen.jpg,,jeff-bridges
-Jose Mourinho,2013,,/images/artworks/jose-mourinho-nick-bohlen.jpg,,jose-mourinho
-Marilyn Manson,2013,,/images/artworks/marylin-manson-nick-bohlen.jpg,,marilyn-manson
-Sam Elliott,2014,,/images/artworks/sam-elliott-nick-bohlen.jpg,,sam-elliott
-Steve McQueen,2013,,/images/artworks/steve-mcqueen-nick-bohlen.jpg,,steve-mcqueen
-Udo Lindenberg,2012,,/images/artworks/udo-lindenberg-nick-bohlen.jpg,,udo-lindenberg
+title,artwork_date,description,image,size,slug,buy
+Barack Obama,2014,,/images/artworks/barack-obama-nick-bohlen.jpg,,barack-obama,true
+Clint Eastwood,2012,,/images/artworks/clint-eastwood-nick-bohlen.jpg,,clint-eastwood,true
+Sarah Jessica Parker,2014,,/images/artworks/sarah-jessica-parker-nick-bohlen.jpg,,sarah-jessica-parker,false
+Alfred Hitchcock,2013,,/images/artworks/alfred-hitchcock-nick-bohlen.jpg,,alfred-hitchcock,true
+Bob Dylan,2013,,/images/artworks/bob-dylan-nick-bohlen.jpg,,bob-dylan,true
+Joaquin Phoenix,2012,,/images/artworks/joaquin-phoenix-nick-bohlen.jpg,,joaquin-phoenix,true
+Matthew McConaughey,2014,,/images/artworks/dallas-buyers-club-nick-bohlen.jpg,,matthew-mcconaughey,true
+Jean Paul Belmondo,2014,,/images/artworks/jean-paul-belmondo-nick-bohlen.jpg,,jean-paul-belmondo,true
+Forest Whitaker,2013,,/images/artworks/forest-whitaker-nick-bohlen.jpg,,forest-whitaker,true
+Halle Berry,2014,,/images/artworks/halle-berry-nick-bohlen.jpg,,halle-berry,true
+Jeff Bridges,2013,,/images/artworks/jeff-bridges-nick-bohlen.jpg,,jeff-bridges,true
+Jose Mourinho,2013,,/images/artworks/jose-mourinho-nick-bohlen.jpg,,jose-mourinho,true
+Marilyn Manson,2013,,/images/artworks/marylin-manson-nick-bohlen.jpg,,marilyn-manson,true
+Sam Elliott,2014,,/images/artworks/sam-elliott-nick-bohlen.jpg,,sam-elliott,true
+Steve McQueen,2013,,/images/artworks/steve-mcqueen-nick-bohlen.jpg,,steve-mcqueen,true
+Udo Lindenberg,2012,,/images/artworks/udo-lindenberg-nick-bohlen.jpg,,udo-lindenberg,true

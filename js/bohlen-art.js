@@ -34,7 +34,10 @@ $(function() {
     // layout Isotope after each image loads
     $grid.imagesLoaded().progress( function() {
       $grid.masonry();
-    });  
+    });
+    $(".grid-item").click(function() {
+      $(this).find(".buy-section").toggle();
+    })
 });
 
 // Highlight the top nav as scrolling occurs
