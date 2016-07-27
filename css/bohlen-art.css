@@ -166,6 +166,8 @@ header {
     min-height: 600px;
 }
 
+.zero-opacity {opacity:0};
+
 .navbar-brand { max-width: 250px;}
 
 .navbar-default { background-color: transparent;}
