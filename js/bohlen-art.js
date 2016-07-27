@@ -37,7 +37,7 @@ $(function() {
     });
     $(".grid-item").click(function() {
       $(this).find(".buy-section").toggle();
-      $(this).find("img").toggleClass("hide");
+      $(this).find("img").toggleClass("zero-opacity");
     })
 });
 
