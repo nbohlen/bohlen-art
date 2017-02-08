@@ -116,11 +116,6 @@ src="https://www.facebook.com/tr?id=1064681606944121&ev=PageView&noscript=1"
               {% for artwork in site.data.artworks %}
                 <div class="col-sm-4 portfolio-item">
                     <a href="#{{ artwork.slug }}" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
                         <img src="{{ artwork.image | resize: '400x450#' }}" class="img-responsive" alt="" />
                     </a>
                 </div>
