@@ -103,6 +103,36 @@ src="https://www.facebook.com/tr?id=1064681606944121&ev=PageView&noscript=1"
         </div>
     </header>
     
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Bilder</h2>
+                    
+                </div>
+            </div>
+            <div class="artworks grid">
+              <div class="grid-sizer"></div>
+              {% for artwork in site.data.artworks %}
+                <div class="grid-item">
+                  <img src="{{ artwork.image | resize: '400x450#' }}" class="img-responsive" alt="" />
+                  
+                  {% if artwork.buy == "true" && artwork.buy_button != "" %}
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <div class="buy-section">
+                      {{ artwork.buy_button }}
+                    </div>
+                  {% endif %}
+                </div>
+              {% endfor %}
+            </div>
+            
+        </div>
+    </section>
     
     
     <!-- Book Section -->
